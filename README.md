@@ -10,7 +10,7 @@ This MCP server relies on the [pubmedclient](https://github.com/grll/pubmedclien
 
 This project is maintained by **bachstudio**.
 
-Original project: This is based on the pubmedmcp project originally developed by [grll](https://github.com/grll).
+Original project: This is based on the [pubmedmcp](https://github.com/grll/pubmedmcp) project originally developed by [grll](https://github.com/grll).
 
 ## Usage
 
