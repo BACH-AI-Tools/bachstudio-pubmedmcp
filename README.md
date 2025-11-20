@@ -6,6 +6,12 @@ PubMed is a database of over 35 million citations for biomedical literature from
 
 This MCP server relies on the [pubmedclient](https://github.com/grll/pubmedclient) Python package to perform the search and fetch operations.
 
+## Credits
+
+This project is maintained by **bachstudio**.
+
+Original project: This is based on the pubmedmcp project originally developed by [grll](https://github.com/grll).
+
 ## Usage
 
 Add the following to your `claude_desktop_config.json` file:
@@ -15,7 +21,7 @@ Add the following to your `claude_desktop_config.json` file:
     "mcpServers": {
         "pubmedmcp": {
             "command": "uvx",
-            "args": ["pubmedmcp@latest"],
+            "args": ["bachstudio-pubmedmcp@latest"],
             "env": {
                 "UV_PRERELEASE": "allow",
                 "UV_PYTHON": "3.12"

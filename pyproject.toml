@@ -1,9 +1,12 @@
 [project]
-name = "pubmedmcp"
+name = "bachstudio-pubmedmcp"
 dynamic = ["version"]
 description = "A MCP server for PubMed data"
 readme = "README.md"
 requires-python = ">=3.12"
+authors = [
+    { name = "bachstudio" }
+]
 dependencies = [
     "mcp>=1.13.1",
     "pubmedclient>=0.2.0",
@@ -15,6 +18,9 @@ build-backend = "hatchling.build"
 
 [tool.hatch.version]
 path = "src/pubmedmcp/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pubmedmcp"]
 
 [project.scripts]
 pubmedmcp = "pubmedmcp.__main__:main"
